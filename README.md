@@ -1,6 +1,6 @@
 # 어드밴스드 대전략: 독일 전격작전 (메가드라이브) 한국어 패치
 
-Advanced Daisenryaku: Deutsch Dengeki Sakusen (Mega Drive, 1991 SystemSoft) 한국어 패치입니다. **현재 v0.9 (미완성 초안 단계)**
+Advanced Daisenryaku: Deutsch Dengeki Sakusen (Mega Drive, 1991 SystemSoft) 한국어 패치입니다. **현재 v0.9.1 (미완성 초안 단계)**
 
 | | | |
 |---|---|---|
@@ -23,14 +23,14 @@ Advanced Daisenryaku: Deutsch Dengeki Sakusen (Mega Drive, 1991 SystemSoft) 한�
    - 파일 크기 1,048,576 바이트
    - SHA-1 `842430c0465d810576e75851023929fec873580d`
    - SHA-256 `47360b90ee077c2df7bb8f8bb6f46bbea25d7e5b1fd975cdf507c1048d80b062`
-2. IPS 패치 도구로 `patch/Advanced_Daisenryaku_ko_v0.9.ips` 를 원본 롬에 적용합니다. (Lunar IPS, Floating IPS(flips), 온라인 IPS 패처 등)
-   - 예: `flips --apply Advanced_Daisenryaku_ko_v0.9.ips "Advanced Daisenryaku (J) (REV01) [!].gen" Advanced_Daisenryaku_ko_v0.9.md`
+2. IPS 패치 도구로 `patch/Advanced_Daisenryaku_ko_v0.9.1.ips` 를 원본 롬에 적용합니다. (Lunar IPS, Floating IPS(flips), 온라인 IPS 패처 등)
+   - 예: `flips --apply Advanced_Daisenryaku_ko_v0.9.1.ips "Advanced Daisenryaku (J) (REV01) [!].gen" Advanced_Daisenryaku_ko_v0.9.1.md`
 3. 결과 롬은 2,097,152 바이트(2MB)가 되며, SHA-1 이 아래와 같으면 정상입니다.
-   - SHA-1 `5dd649edd93dc7dfb0820638a5a720957955beba`
+   - SHA-1 `4a426586a8ed817843cb6a3df175b246f14d721d`
 4. 에뮬레이터(BizHawk, Genesis Plus GX 등)나 플래시카트에서 실행합니다.
    - 2MB 롬이므로 일반 메가드라이브 롬 매핑 기준입니다. 에뮬레이터 호환은 BizHawk 에서만 시험했습니다.
 
-IPS 파일 SHA-256: `1df05e9961a8248ff203859e50ae6ce6f9e7fc79e4f6b6072c70930ba8ef88f4`
+IPS 파일 SHA-256: `7565d5b9ac25be7a83be94a60cbcdc5b39e06324b437d62c5a7071337e6509a0`
 
 ## 한계 및 알려진 문제
 - 상황표·부대표·수입표·개발표·유닛 세부 스펙창 등 일부 화면은 확인하지 못했고, 일본어가 남아 있을 수 있습니다.

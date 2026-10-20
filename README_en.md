@@ -1,6 +1,6 @@
 # Advanced Daisenryaku: German Blitzkrieg Operation (Mega Drive) Korean Language Patch
 
-Advanced Daisenryaku: Deutsch Dengeki Sakusen (Mega Drive, 1991 SystemSoft) Korean Language Patch. **Currently v0.9 (incomplete draft)**
+Advanced Daisenryaku: Deutsch Dengeki Sakusen (Mega Drive, 1991 SystemSoft) Korean Language Patch. **Currently v0.9.1 (incomplete draft)**
 
 | | | |
 |---|---|---|
@@ -23,14 +23,14 @@ This repository does **not** include a ROM file. Prepare the original ROM yourse
    - File size 1,048,576 bytes
    - SHA-1 `842430c0465d810576e75851023929fec873580d`
    - SHA-256 `47360b90ee077c2df7bb8f8bb6f46bbea25d7e5b1fd975cdf507c1048d80b062`
-2. Apply `patch/Advanced_Daisenryaku_ko_v0.9.ips` to the original ROM using an IPS patch tool (Lunar IPS, Floating IPS(flips), online IPS patcher, etc.).
-   - Example: `flips --apply Advanced_Daisenryaku_ko_v0.9.ips "Advanced Daisenryaku (J) (REV01) [!].gen" Advanced_Daisenryaku_ko_v0.9.md`
+2. Apply `patch/Advanced_Daisenryaku_ko_v0.9.1.ips` to the original ROM using an IPS patch tool (Lunar IPS, Floating IPS(flips), online IPS patcher, etc.).
+   - Example: `flips --apply Advanced_Daisenryaku_ko_v0.9.1.ips "Advanced Daisenryaku (J) (REV01) [!].gen" Advanced_Daisenryaku_ko_v0.9.1.md`
 3. The resulting ROM will be 2,097,152 bytes (2MB), and if the SHA-1 matches the one below, it is correct.
-   - SHA-1 `5dd649edd93dc7dfb0820638a5a720957955beba`
+   - SHA-1 `4a426586a8ed817843cb6a3df175b246f14d721d`
 4. Run it in an emulator (BizHawk, Genesis Plus GX, etc.) or flash cart.
    - Since it is a 2MB ROM, it uses standard Mega Drive ROM mapping. Emulator compatibility was tested only with BizHawk.
 
-IPS file SHA-256: `1df05e9961a8248ff203859e50ae6ce6f9e7fc79e4f6b6072c70930ba8ef88f4`
+IPS file SHA-256: `7565d5b9ac25be7a83be94a60cbcdc5b39e06324b437d62c5a7071337e6509a0`
 
 ## Limitations and Known Issues
 - Some screens such as situation tables, unit tables, income tables, development tables, and unit detail spec windows could not be verified, and Japanese text may remain.
